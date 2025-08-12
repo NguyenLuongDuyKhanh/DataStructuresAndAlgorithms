@@ -3,6 +3,7 @@ Tùy nhu cầu sử dụng Linked List có thể biến thành Queue, Ring Buffe
 Linked List Đơn (Singly Linked List): List chỉ duyệt từ đầu tới đuôi.
 Linked List Đôi (Doubly Linked List): List có thể duyệt từ đầu đến đuôi và ngược lại từ đuôi đến đầu.
 
+
 # Feature
 Ease of insertion and deletion
     In lists, inserting or deleting an element at any position other than the end requires shifting all the subsequent items to a different position. 
@@ -20,6 +21,7 @@ Linked lists are most useful when:
 
 Operations
 enqueue (add), dequeue (remove) 
+
 # Problem
 Reverse a linked list by just one loop
 https://www.geeksforgeeks.org/reverse-a-linked-list/
