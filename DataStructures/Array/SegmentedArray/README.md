@@ -1,0 +1,1 @@
+## std::deque ~ segmented array (multiple fixed-size blocks)

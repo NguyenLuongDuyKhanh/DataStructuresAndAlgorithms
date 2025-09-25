@@ -1,3 +1,6 @@
+## std::vector 
+The C++ std::vector is implemented under the hood as a dynamic array.
+
 # Other names:
 array list, growable array, resizable array, mutable array
 
