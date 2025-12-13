@@ -1,8 +1,6 @@
-## std::vector 
-The C++ std::vector is implemented under the hood as a dynamic array.
+## Dynamic array
 
-# Other names:
-array list, growable array, resizable array, mutable array
+Other names: array list, growable array, resizable array, mutable array.
 
 One limitation of arrays is that they're fixed size, meaning you need to specify the number of elements your array will hold ahead of time.
 
@@ -15,6 +13,11 @@ What if we try to append an item but our array's capacity is already full?
 
 To make room, dynamic arrays automatically make a new, bigger underlying array. Usually twice as big.
 
-Why not just extend the existing array? Because that memory might already be taken by another program.
-
+- Why not just extend the existing array? Because that memory might already be taken by another program.
 Each item has to be individually copied into the new array.
+
+The C++ std::vector is implemented under the hood as a dynamic array.
+
+## Example
+- Ex1_DynamicArray.cpp demonstrate the basic idea of dynamic array.
+- Ex2_DynamicArray.cpp demonstrate immitates std::vector implementation.
